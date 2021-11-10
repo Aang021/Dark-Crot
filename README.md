@@ -23,3 +23,5 @@ $ cd Dark-Crot
 $ git pull
 
 $ python2 crot.py
+
+# Screenshot
