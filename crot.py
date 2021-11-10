@@ -72,6 +72,7 @@ logo ="""\033[1;91m
 |  $$$$$$/| $$  | $$|  $$$$$$/|  $$$$$$/   | $$   
  \______/ |__/  |__/ \______/  \______/    |__/   
 \033[0m"""
+
 \033[1;97m• Author : AangSans-Xyz
 \033[1;97m• Github : Github.com/Aang21
 \033[1;97m• Facebook : Https://www.facebook.com/clubfunbike
