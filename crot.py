@@ -220,7 +220,7 @@ def pilih_super():
             os.system('clear')
             print logo
             print 42 * '='
-            jalan('[Sedang Mengambil ID]')
+            jalan('[ Sedang Mengambil ID ]')
             r = requests.get('https://graph.facebook.com/me/friends?access_token=' + toket)
             z = json.loads(r.text)
             for s in z['data']:
@@ -258,10 +258,10 @@ def pilih_super():
             sys.stdout.flush()
             time.sleep(1)
 
-    print
-    print '\tUntuk Berhenti Tekan CTRL + z'
-    print '\tJika Tidak Ada Hasil, Gunakan Mode Pesawat [5 Detik] Saja'
-    print 42 * '='
+        print
+           print '\tUntuk Berhenti Tekan CTRL + z'
+           print '\tJika Tidak Ada Hasil, Gunakan Mode Pesawat [5 Detik] Saja'
+           print 42 * '='
 
     def main(arg):
         user = arg
