@@ -13,7 +13,7 @@ $ pip2 install requests
 
 $ pip2 install mechanize bs4
 
-$ git clone https://github com/Aang021/Dark-Crot
+$ git clone https://github.com/Aang021/Dark-Crot
 
 # Running script
 $ rm -rf Dark-Crot
