@@ -259,8 +259,9 @@ def pilih_super():
             time.sleep(1)
 
         print
-           print '\tUntuk Berhenti Tekan CTRL + z'
-           print '\tJika Tidak Ada Hasil, Gunakan Mode Pesawat [5 Detik] Saja'
+           print '\tUntuk berhenti tekan CTRL + z'
+           print '\tJika tidakdak adada hasil, gunakan mode pesawat'
+           print '\t[ 5 detik ] saja setiap 5 menit
            print 42 * '='
 
     def main(arg):
