@@ -72,13 +72,10 @@ logo ="""\033[1;91m
 |  $$$$$$/| $$  | $$|  $$$$$$/|  $$$$$$/   | $$   
  \______/ |__/  |__/ \______/  \______/    |__/   
 \033[0m"""
-\033[1;93m╔════════════════════════════════════╗
-\033[1;97m╠══[ Author : AangSans-Xyz
-\033[1;97m╠══[ Github : Github.com/Aang21
-\033[1;97m╠══[ Facebook : Https://www.facebook.com/clubfunbike
-\033[1;97m╠══[ WhatsApp : 089524163441/0882007090803
-\033[1;94m╚════════════════════════════════════╝
-"""
+\033[1;97m• Author : AangSans-Xyz
+\033[1;97m• Github : Github.com/Aang21
+\033[1;97m• Facebook : Https://www.facebook.com/clubfunbike
+\033[1;97m• WhatsApp : 089524163441/0882007090803"""
 
 def tik():
     titik = ['.   ', '..  ', '... ']
