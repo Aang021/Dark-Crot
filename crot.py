@@ -240,7 +240,7 @@ def pilih_super():
                 raw_input('\nTekan Enter Untuk Kembali')
                 super()
 
-            jalan(['Sedang Mengambil ID]')
+            jalan('Sedang Mengambil ID')
             r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
             z = json.loads(r.text)
             for i in z['data']:
