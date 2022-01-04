@@ -530,105 +530,95 @@ def generate1(_laura_):
         else:
             i=i.lower()
             if len(i)==3 or len(i)==4 or len(i)==5:
-                _dapunta_.append(i+"123")
-                _dapunta_.append(i+"12345")
-                _dapunta_.append(i+"1234")
-                _dapunta_.append(i+"786")
-                _dapunta_.append(i+"1122")
+                _aangxd_.append(i+"123")
+                _aangxd_.append(i+"12345")
+                _aangxd_.append(i+"1234")
+                _aangxd_.append(i+"234")
+                _aangxd_.append(i+"1122")
             elif len(i)>=6:
-                _dapunta_.append(i)
-                _dapunta_.append(i+"123")
-                _dapunta_.append(i+"12345")
-                _dapunta_.append(i+"1234")
-                _dapunta_.append(i+"786")
-                _dapunta_.append(i+"1122")
+                _aangxd_.append("rahasia")
+                _aangxd_.append("anjing")
+                _aangxd_.append("kontol")
+                _aangxd_.append("sayang")
+                _aangxd_.append("akusayangkamu")
+                _aangxd_.append("katasandi")
             else:
                 continue
-    _dapunta_.append(_cici_.lower())
-    return _dapunta_
-def generate2(_cici_):
-    _dapunta_=[]
-    for i in _cici_.split(" "):
+    _aangxd_.append(_laura_.lower())
+    return _aangxd_
+def generate2(_laura_):
+    _aangxd_=[]
+    for i in _laura_.split(" "):
         if len(i)<3:
             continue
         else:
             i=i.lower()
             if len(i)==3 or len(i)==4 or len(i)==5:
-                _dapunta_.append(i+"123")
-                _dapunta_.append(i+"12345")
-                _dapunta_.append(i+"1234")
-                _dapunta_.append(i+"1122")
-                _dapunta_.append(i+"786")
-                _dapunta_.append(i+"181104")
+                _aangxd_.append(i+"123")
+                _aangxd_.append(i+"12345")
+                _aangxd_.append(i+"1234")
+                _aangxd_.append(i+"234")
+                _aangxd_.append(i+"2345")
             else:
-                _dapunta_.append(i)
-                _dapunta_.append(i+"123")
-                _dapunta_.append(i+"12345")
-                _dapunta_.append(i+"1234")
-                _dapunta_.append(i+"1122")
-                _dapunta_.append(i+"786")
-                _dapunta_.append(i+"181104")
-    _dapunta_.append(_cici_.lower())
-    _dapunta_.append("akusayangkamu")
-    _dapunta_.append("rahasia")
-    _dapunta_.append("password")
-    _dapunta_.append("anjing")
-    _dapunta_.append("kontol")
-    _dapunta_.append("katasandi")
-    _dapunta_.append("sayang")
-    return _dapunta_
-def generate3(_cici_):
-    _dapunta_=[]
-    for i in _cici_.split(" "):
+                _aangxd_.append(i)
+                _aangxd_.append(i+"123")
+                _aangxd_.append(i+"12345")
+                _aangxd_.append(i+"1234")
+                _aangxd_.append(i+"234")
+                _aangxd_.append(i+"2345")
+    _aangxd_.append(_laura_.lower())
+    _aangxd_.append("akusayangkamu")
+    _aangxd_.append("rahasia")
+    _aangxd_.append("anjing")
+    _aangxd_.append("kontol")
+    _aangxd_.append("katasandi")
+    _aangxd_.append("sayang")
+    return _aangxd_
+def generate3(_laura_):
+    _aangxd_=[]
+    for i in _laura_.split(" "):
         if len(i)<3:
             continue
         else:
             i=i.lower()
             if len(i)==3 or len(i)==4 or len(i)==5:
-                _dapunta_.append(i+"123")
-                _dapunta_.append(i+"12345")
-                _dapunta_.append(i+"1234")
-                _dapunta_.append(i+"1122")
-                _dapunta_.append(i+"786")
-                _dapunta_.append(i+"181104")
+                _aangxd_.append(i+"123")
+                _aangxd_.append(i+"12345")
+                _aangxd_.append(i+"1234")
+                _aangxd_.append(i+"234")
             else:
-                _dapunta_.append(i)
-                _dapunta_.append(i+"123")
-                _dapunta_.append(i+"12345")
-                _dapunta_.append(i+"1234")
-                _dapunta_.append(i+"1122")
-                _dapunta_.append(i+"786")
-                _dapunta_.append(i+"181104")
-    _dapunta_.append(_cici_.lower())
-    _dapunta_.append("akusayangkamu")
-    _dapunta_.append("rahasia")
-    _dapunta_.append("password")
-    _dapunta_.append("anjing")
-    _dapunta_.append("kontol")
-    _dapunta_.append("katasandi")
-    _dapunta_.append("sayang")
-    return _dapunta_
-def generate4(_cici_):
-    _dapunta_=[]
+                _aangxd_.append(i+"123")
+                _aangxd_.append(i+"12345")
+                _aangxd_.append(i+"1234")
+                _aangxd_.append(i+"234")
+                _aangxd_.append(i+"2345")
+    _aangxd_.append(_laura_.lower())
+    _aangxd_.append("akusayangkamu")
+    _aangxd_.append("rahasia")
+    _aangxd_.append("anjing")
+    _aangxd_.append("kontol")
+    _aangxd_.append("katasandi")
+    _aangxd_.append("sayang")
+    return _aangxd_
+def generate4(_laura_):
+    _aangxd_=[]
     ps = open('pass.txt','r').read()
     pp = open('passangka.txt','r').read()
-    for i in _cici_.split(" "):  
+    for i in _laura_.split(" "):  
         i=i.lower()
         if len(i)<3:continue
         elif len(i)==3 or len(i)==4 or len(i)==5:
-                _dapunta_.append(i+"123")
-                _dapunta_.append(i+"12345")
-                _dapunta_.append(i+"1234")
-                _dapunta_.append(i+"1122")
-                _dapunta_.append(i+"786")
-                _dapunta_.append(i+"181104")
+                _aangxd_.append(i+"123")
+                _aangxd_.append(i+"12345")
+                _aangxd_.append(i+"1234")
+                _aangxd_.append(i+"234")
+                _aangxd_.append(i+"2345")
         else:
-           _dapunta_.append(i+"123")
-           _dapunta_.append(i+"12345")
-           _dapunta_.append(i+"1234")
-           _dapunta_.append(i+"1122")
-           _dapunta_.append(i+"786")
-           _dapunta_.append(i+"181104")
+           _aangxd_.append(i+"123")
+           _aangxd_.append(i+"12345")
+           _aangxd_.append(i+"1234")
+           _aangxd_.append(i+"234")
+           _aangxd_.append(i+"2345")
     if pp in ['',' ','  ']:pass
     else:
         for z in ps.split(','):
