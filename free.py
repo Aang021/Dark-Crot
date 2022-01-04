@@ -425,7 +425,7 @@ def publik():
         print('%s╠══[%s•%s] %sTotal ID : %s'%(O,K,O,H,len(id)))
         return crack(xc)
     except Exception as e:
-        exit('%s╚══[%s!%s] %sError Goblok : %s'%(M,P,M,P,e))
+        exit('%s╚══[%s!%s] %sError : %s'%(M,P,M,P,e))
 def pengikut():
     try:
         lisensi = open("license.txt","r").read()
@@ -473,7 +473,7 @@ def pengikut():
         print('%s╠══[%s•%s] %sTotal ID : %s'%(O,K,O,H,len(id)))
         return crack(xc)
     except Exception as e:
-        exit('%s╚══[%s!%s] %sError Goblok : %s'%(M,P,M,P,e))
+        exit('%s╚══[%s!%s] %sError : %s'%(M,P,M,P,e))
 def likers():
     try:
         lisensi = open("license.txt","r").read()
@@ -1557,7 +1557,7 @@ def var_menu():
     print('%s╠══[%s2%s] %sLogin Pakai Cookies'%(O,K,O,H))
     print('%s╠══[%s3%s] %sTutorial Menggunakan Script'%(O,K,O,H))
     print('%s╠══[%s4%s] %sInfo Author & Team Project'%(O,K,O,H))
-    print('%s╠══[%s0%s] %sKeluar \x1b[0;96m[\x1b[0;93mAhh Ngecrot\x1b[0;96m]'%(O,K,O,H))
+    print('%s╠══[%s0%s] %sKeluar [Ahh Ngecrot]'%(O,K,O,H))
 def var_tutor():
     mlaku('%s╔══[%s Tips & Tutorial %s]'%(O,P,O))
     print('%s║'%(O))
